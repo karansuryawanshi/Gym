@@ -1,0 +1,132 @@
+/* body{
+    background-image: url('GYM image/back.jpg');
+    font-family: 'Baloo Bhai', cursive;
+    display:block;
+}
+
+@media only screen and (max-width: 300px){
+    #Main{
+        display: block;
+        
+    }
+}
+
+
+.left{
+    color: bisque;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    margin-top: 15px; 
+    font-size: 10px;   
+}
+
+.left img{
+    width: 60px;
+    height: 50px;
+    
+    
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 15px;
+    color: gray;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 0px;
+    color: rgb(40, 118, 196);
+    display: inline-block;
+    margin-top: 15px;
+
+}
+.btn{
+    margin-right: 25px;
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 13px;
+    font-family: 'Baloo Bhai ', cursive;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(29, 28, 28);
+    color: antiquewhite;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navbar li a{
+    color: rgb(159, 38, 38);
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    
+    text-decoration: underline;
+    color: rgb(8, 150, 210);
+}
+
+.container{
+    border: 3px solid antiquewhite;
+    margin: 50px;
+    padding: 90px; 
+    display: inline-block;
+    border-radius: 20px;
+}
+.new input{
+        
+    border: 3px solid ;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;    
+    font-size: 15px;
+    border-radius: 7px;
+    font-family: 'Baloo Bhai',cursive;
+    display: block;
+}
+.container h1{
+    text-align: center;
+    color: antiquewhite;
+     
+}
+.container button{
+    border: 2px solid rgb(29, 193, 193);    
+    padding-right: 8px;
+    margin: 5px;
+    background-color: rgb(23, 130, 130);
+    color: beige;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.mid li:hover > .submenu{
+    background-color: aqua;
+    display: block;
+    display: flex;
+}
+
+.submenu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(255, 153, 153);
+} */

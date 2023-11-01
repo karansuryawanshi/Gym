@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="GYM.css">
+</head>
+
+<style>
+    body{
+    /* margin: 0px;
+    padding: 0px; */
+    background-image: url('GYM image/back.jpg');
+
+    font-family: 'Baloo Bhai', cursive;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* width: 100%; */
+    /* height: 100%; */
+    display:block;
+    /* height: 100px; */
+    /* width: 100px; */
+}
+
+@media only screen and (max-width: 300px){
+    #Main{
+        display: block;
+        
+    }
+}
+
+
+.left{
+    color: bisque;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    margin-top: 15px; 
+    font-size: 10px;   
+}
+
+.left img{
+    width: 60px;
+    height: 50px;
+    
+    
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 15px;
+    color: gray;
+    /* border: 2px solid yellowgreen; */
+    /* display: inline-block; */
+
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 0px;
+    color: rgb(40, 118, 196);
+    /* border: 2px solid whitesmoke; */
+    display: inline-block;
+    margin-top: 15px;
+
+}
+.btn{
+    margin-right: 25px;
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    font-size: 13px;
+    font-family: 'Baloo Bhai ', cursive;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(29, 28, 28);
+    color: antiquewhite;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navbar li a{
+    color: rgb(159, 38, 38);
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    
+    text-decoration: underline;
+    color: rgb(8, 150, 210);
+}
+
+.container{
+    border: 3px solid antiquewhite;
+    margin: 50px;
+    padding: 90px; 
+    
+    display: inline-block;
+    /* font-size: 40px; */
+    border-radius: 20px;
+}
+.new input{
+        
+    border: 3px solid ;
+    width: 100%;
+    /* padding-right: 100px; */
+    margin-bottom: 10px;
+    padding-bottom: 5px;    
+    font-size: 15px;
+    border-radius: 7px;
+    font-family: 'Baloo Bhai',cursive;
+    display: block;
+    /* text-align: center; */
+
+}
+.container h1{
+    text-align: center;
+    color: antiquewhite;
+     
+}
+.container button{
+    border: 2px solid rgb(29, 193, 193);    
+    padding-right: 8px;
+    margin: 5px;
+    background-color: rgb(23, 130, 130);
+    color: beige;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.mid li:hover > .submenu{
+    background-color: aqua;
+    display: block;
+    display: flex;
+}
+
+/* SUbmenu */
+.submenu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(255, 153, 153);
+}
+</style>
+
+<body id="Main">
+    <header class="header">
+        <div class="left">
+            <img src="GYM img/GYM man.jpg" alt="logo" >
+            <div>Sai Fitness</div>
+        </div>
+        
+        
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="#" target="_blank">Fitness</a>
+                    <div class="submenu">
+                        <span>Fitness Coach</span>
+                        <span>Fitness Coach</span>
+                        <span>Fitness Coach</span>
+                        <span>Fitness Coach</span>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        
+        </div>
+
+
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">mail us</button>
+        </div>
+    </header>
+    <div class="container">
+        
+        <h1>Join best Gym of Dhule</h1>
+        <form action="Backend.php">
+            <div class="new">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="new">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+
+            <div class="new">
+                <input type="text" name="" placeholder="Enter your weight">
+            </div>
+            
+            <div class="new">
+                <input type="text" name="" placeholder="Enter your phone.no">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
